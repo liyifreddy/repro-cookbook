@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Li
     given-names: Yi
+    orcid: https://orcid.org/0009-0001-4549-2913
     email: liyi.freddy@gmail.com
     website: https://yili-dev.com
 repository-code: https://github.com/liyifreddy/repro-cookbook
