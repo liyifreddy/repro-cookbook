@@ -1,0 +1,27 @@
+name: Blocked
+description: You followed an entry and could not get it to run.
+title: "[Blocked] <entry or dataset slug>"
+labels: ["blocked"]
+body:
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: GPU / CPU, VRAM, OS.
+      placeholder: RTX 4060 8 GB, Ubuntu 22.04
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Upstream commit and repro-cookbook commit you used.
+    validations:
+      required: true
+  - type: textarea
+    id: what-you-saw
+    attributes:
+      label: What you saw
+      description: Numbers, error messages, logs. Paste the command you ran.
+    validations:
+      required: true

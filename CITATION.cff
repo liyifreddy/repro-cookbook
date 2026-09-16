@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: repro-cookbook
+message: If an entry saved you time, please cite this repository or link back.
+type: software
+authors:
+  - family-names: Li
+    given-names: Yi
+    email: liyi.freddy@gmail.com
+    website: https://yili-dev.com
+repository-code: https://github.com/liyifreddy/repro-cookbook
+url: https://yili-dev.com
+license: MIT
